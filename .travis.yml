@@ -19,4 +19,5 @@ after_success:
 deploy:
   provider: heroku
   api_key: 7e2693a9-987c-4f2a-997b-724313dc30b0
+  app: t2tintegra
   on: master
