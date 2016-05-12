@@ -113,3 +113,15 @@ Started GET "/assets/api.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca4
 
 
 Started GET "/assets/api.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-12 19:18:19 -0300
+
+
+Started GET "/" for ::1 at 2016-05-12 20:45:00 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/railties-4.2.6/lib/rails/templates/rails/welcome/index.html.erb (2.3ms)
+Completed 200 OK in 84ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/index" for ::1 at 2016-05-12 20:45:06 -0300
+Processing by ApiController#index as HTML
+  Rendered api/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 593ms (Views: 591.7ms | ActiveRecord: 0.0ms)
