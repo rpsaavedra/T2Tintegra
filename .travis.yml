@@ -13,5 +13,5 @@ before_script:
 #  - mysql -e 'create database chromotype_test'
   - psql -c 'create database chromotype_test' -U postgres
 
-#script:
-#  - rake
+script:
+  - rake
