@@ -13,3 +13,5 @@ before_script:
 #  - mysql -e 'create database chromotype_test'
   - psql -c 'create database chromotype_test' -U postgres
 
+after_success:
+	- CI=true TRAVIS=true coveralls --verbose
