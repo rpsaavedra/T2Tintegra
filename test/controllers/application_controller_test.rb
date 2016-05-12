@@ -1,5 +1,5 @@
 require 'test_helper'
-require_relative "../../SimpleNumber"
+require_relative 'simple_number'
 
 class ApplicationControllerTest < ActionController::TestCase
 
