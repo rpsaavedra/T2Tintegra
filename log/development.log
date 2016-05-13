@@ -125,3 +125,9 @@ Started GET "/api/index" for ::1 at 2016-05-12 20:45:06 -0300
 Processing by ApiController#index as HTML
   Rendered api/index.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 593ms (Views: 591.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/index" for ::1 at 2016-05-12 21:17:01 -0300
+Processing by ApiController#index as HTML
+  Rendered api/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 532ms (Views: 513.9ms | ActiveRecord: 0.0ms)
